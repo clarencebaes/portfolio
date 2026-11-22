@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clarence Baes’s portfolio featuring the Facility Evaluation System, CLAWWORDS, TRAPKINGS, and the UDM Online Enrollment System.">
+  <meta name="theme-color" content="#F7F5F3">
+  <title>Clarence Baes | Project Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <header class="site-header shell">
+    <a class="monogram" href="#about" aria-label="Clarence Baes, About">CB<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section id="about" aria-labelledby="about-title">
+      <div class="about">
+        <img class="portrait" src="assets/portrait.png" width="300" height="300" alt="Portrait of Clarence Baes">
+        <div class="about-copy">
+          <p class="eyebrow">About me</p>
+          <h1 id="about-title">Clarence Baes</h1>
+          <p class="hero-role">BS Information Technology student</p>
+          <p>I’m Clarence Carl Henry J. Baes. I build web applications and games and provide independent IT support. I bring together programming, database development, and design to build tools people can use. When I troubleshoot or work with a team, I listen first, explain solutions clearly, and adapt as priorities change.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my projects</a>
+            <a class="button button-outline" href="assets/clarence-baes-cv.pdf" download>Download CV</a>
+          </div>
+        </div>
+        <dl class="profile-facts">
+          <div><dt>Education</dt><dd>Universidad de Manila</dd></div>
+          <div><dt>Location</dt><dd>Manila, Philippines</dd></div>
+        </dl>
+      </div>
+      <div class="resume-grid">
+          <div>
+            <h2>Experience</h2>
+            <ol class="experience-list">
+              <li><h3>Independent IT support and technical repairs</h3><p>2024–present · Windows troubleshooting and device maintenance</p></li>
+              <li><h3>Newspaper distribution and circulation</h3><p>2019–2024 · Seasonal family business</p></li>
+            </ol>
+          </div>
+          <div>
+            <h2>Technical skills</h2>
+            <ul class="tech-list">
+              <li>Python</li><li>JavaScript</li><li>HTML &amp; CSS</li><li>React</li><li>FastAPI</li><li>MySQL</li><li>SQL</li><li>GitHub</li><li>Godot Engine</li><li>Basic Cisco configuration</li><li>Figma</li><li>Adobe Photoshop</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Certifications and recognition</h2>
+            <ul class="recognition-list">
+              <li>Universidad de Manila Dean’s List, 2024 and 2025</li>
+              <li>Cisco Introduction to IoT and Computer Hardware Basics, 2024</li>
+              <li>TESDA NC II Computer Systems Servicing and NC III Visual Graphics Design, 2023</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <h2 id="projects-title">Selected projects</h2>
+        <div class="project-picker" id="project-picker" role="group" aria-label="Choose a project" hidden></div>
+      </div>
+      <div class="showcase">
+        <div class="gallery" aria-label="Project gallery">
+          <div class="stage" id="cover-stage">
+            <button class="stage-edge previous" id="cover-prev" type="button" aria-label="Previous screenshot"><span aria-hidden="true">‹</span></button>
+            <button class="cover" id="cover-open" type="button" aria-haspopup="dialog" aria-label="Open Home page screenshot">
+              <img id="cover-image" src="assets/capstone/01-home.png" width="1467" height="830" alt="Student Facility Evaluation home showing the semester and survey schedule">
+            </button>
+            <button class="stage-edge next" id="cover-next" type="button" aria-label="Next screenshot"><span aria-hidden="true">›</span></button>
+          </div>
+          <div class="gallery-toolbar">
+            <p id="gallery-status" role="status">Home page</p>
+            <span id="gallery-count" aria-hidden="true"></span>
+          </div>
+          <div class="thumbnails" id="cover-thumbnails" role="group" aria-label="Choose a screenshot"></div>
+        </div>
+
+        <article class="project-info" aria-labelledby="project-title">
+          <p class="eyebrow" id="project-meta">Universidad de Manila · 2026</p>
+          <h3 id="project-title">UDM Facility Evaluation &amp; Intervention System</h3>
+          <p class="project-description" id="project-description">A web-based decision-support tool for Universidad de Manila’s Quality Assurance and Accreditation Division (QUAD). Students give consent, rate 16 service areas on a five-star scale, and leave comments in English, Filipino, or Taglish. Complement Naïve Bayes models classify comment sentiment and service aspects, while rules identify constructive suggestions. QUAD staff use dashboards, alerts, reports, and intervention tracking to review concerns and document follow-up actions.</p>
+          <ul class="tech-list" id="project-stack" aria-label="Technologies">
+            <li>React</li><li>Python</li><li>FastAPI</li><li>MySQL</li><li>SQLAlchemy</li><li>scikit-learn</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="shell contact-layout">
+      <div class="contact-intro">
+        <h2 id="contact-title">Contact</h2>
+        <p>Manila, Philippines</p>
+      </div>
+      <address class="contact-panel">
+        <a href="mailto:clarencebaes.20@gmail.com"><strong>Email</strong><span>clarencebaes.20@gmail.com</span></a>
+        <a href="tel:+639932165012"><strong>Phone</strong><span>09932165012</span></a>
+      </address>
+      <nav class="contact-panel" aria-label="Social profiles">
+        <a href="https://github.com/clarencebaes"><strong>GitHub</strong><span>github.com/clarencebaes</span></a>
+        <a href="https://www.linkedin.com/in/clarence-baes/"><strong>LinkedIn</strong><span>linkedin.com/in/clarence-baes</span></a>
+        <a href="https://www.facebook.com/andytunaflakes/"><strong>Facebook</strong><span>facebook.com/andytunaflakes</span></a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="lightbox" aria-labelledby="lightbox-title">
+    <div class="lightbox-header">
+      <h2 id="lightbox-title">Project screenshots</h2>
+      <button id="lightbox-close" type="button" autofocus>Close <span aria-hidden="true">×</span></button>
+    </div>
+    <div class="lightbox-stage" id="lightbox-stage">
+      <button class="stage-edge previous" id="lightbox-prev" type="button" aria-label="Previous screenshot"><span aria-hidden="true">‹</span></button>
+      <img id="lightbox-image" alt="">
+      <button class="stage-edge next" id="lightbox-next" type="button" aria-label="Next screenshot"><span aria-hidden="true">›</span></button>
+    </div>
+    <div class="lightbox-footer">
+      <p class="lightbox-caption" role="status"><strong id="lightbox-label"></strong><span id="lightbox-caption"></span></p>
+      <div class="thumbnails" id="lightbox-thumbnails" role="group" aria-label="Choose an enlarged screenshot"></div>
+    </div>
+  </dialog>
+</body>
+</html>
