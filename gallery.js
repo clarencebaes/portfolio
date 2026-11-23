@@ -3,7 +3,7 @@ const projects = [
     title: "UDM Facility Evaluation & Intervention System",
     pickerLabel: "Facility Evaluation System",
     meta: "Universidad de Manila · 2026",
-    description: "A web-based decision-support tool for Universidad de Manila’s Quality Assurance and Accreditation Division (QUAD). Students give consent, rate 16 service areas on a five-star scale, and leave comments in English, Filipino, or Taglish. Complement Naïve Bayes models classify comment sentiment and service aspects, while rules identify constructive suggestions. QUAD staff use dashboards, alerts, reports, and intervention tracking to review concerns and document follow-up actions.",
+    description: "Developed a full-stack web application that collects student ratings and comments across 16 service areas at Universidad de Manila. The semester-specific survey records student consent and accepts five-star ratings and comments in English, Filipino, or Taglish. Complement Naïve Bayes models classify comment sentiment and identify service aspects, while rules flag constructive suggestions. Quality Assurance and Accreditation Division (QUAD) staff can review trends and alerts, generate reports, and track recommended actions through the intervention workflow.",
     stack: ["React", "Python", "FastAPI", "MySQL", "SQLAlchemy", "scikit-learn"],
     screenshots: [
       {
@@ -92,28 +92,6 @@ const projects = [
       thumbnail: `assets/clawwords/${file}-thumb.jpg`,
       width: 1920,
       height: 1080,
-      label,
-      alt,
-      caption
-    }))
-  },
-  {
-    title: "UDM Online Enrollment System",
-    pickerLabel: "Online Enrollment System",
-    meta: "Universidad de Manila · 2026",
-    description: "I built a web application that connects the two sides of Universidad de Manila’s enrollment process. Applicants can read admissions instructions, submit their details, and return through the applicant portal. Staff can filter applications by program, term, or status, enroll accepted applicants, and check section capacity in the roster before exporting it as a CSV.",
-    stack: ["React", "Python", "FastAPI", "MySQL"],
-    screenshots: [
-      ["01-home", 1917, 917, "Home page", "UDM Online Enrollment System landing page with an Enroll Now button", "The landing page gives applicants a clear entry point to enrollment."],
-      ["02-admissions", 1896, 905, "Admissions", "Admissions announcements with application requirements and appointment guidance", "Applicants can review announcements, deadlines, and appointment instructions."],
-      ["03-application", 1887, 906, "Application form", "Blank online admissions application form", "The online form collects the information needed to start an application."],
-      ["04-login", 1900, 906, "Applicant portal", "Applicant portal sign-in screen with an application ID and password form", "Applicants sign in using their application ID and password."],
-      ["05-enrollment", 1917, 910, "Enrollment management", "Admin view with application statuses and an enrolled-student roster populated with demo records", "Staff review applications, enroll accepted students, and filter or export the roster. This screenshot uses demo records."]
-    ].map(([file, width, height, label, alt, caption]) => ({
-      src: `assets/enrollment/${file}.png`,
-      thumbnail: `assets/enrollment/${file}-thumb.jpg`,
-      width,
-      height,
       label,
       alt,
       caption
