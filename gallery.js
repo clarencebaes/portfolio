@@ -2,7 +2,7 @@ const projects = [
   {
     title: "UDM Facility Evaluation & Intervention System",
     pickerLabel: "Facility Evaluation System",
-    meta: "Universidad de Manila · 2026",
+    meta: "Capstone Project (2026)",
     description: "Developed a full-stack web application that collects student ratings and comments across 16 service areas at Universidad de Manila. The semester-specific survey records student consent and accepts five-star ratings and comments in English, Filipino, or Taglish. Complement Naïve Bayes models classify comment sentiment and identify service aspects, while rules flag constructive suggestions. Quality Assurance and Accreditation Division (QUAD) staff can review trends and alerts, generate reports, and track recommended actions through the intervention workflow.",
     stack: ["React", "Python", "FastAPI", "MySQL", "SQLAlchemy", "scikit-learn"],
     screenshots: [
@@ -76,7 +76,7 @@ const projects = [
   },
   {
     title: "CLAWWORDS",
-    meta: "Android game · 2026",
+    meta: "Software Development Game Project (2026)",
     description: "Developed a 10-level arcade word game in Godot and packaged it as an Android APK. Each level presents a timed question about software development. Players steer a claw to pick up letter tokens and assemble the answer before time runs out. They can spend coins to reveal a letter or shuffle the available letters, or save them to unlock a different claw design. After solving a puzzle, players can review their time and answer, retry the level, or move on to the next one.",
     stack: ["Godot Engine", "Kotlin", "Android Studio", "Android SDK"],
     screenshots: [
@@ -99,7 +99,7 @@ const projects = [
   },
   {
     title: "TRAPKINGS",
-    meta: "Clothing e-commerce website · 2025",
+    meta: "Database Management System Project (2025)",
     description: "Developed a full-stack clothing storefront with React, FastAPI, and MySQL. Shoppers can search the catalog, filter by size or color, and check product photos, prices, and stock before adding items to their cart. At checkout, they can adjust quantities and review shipping costs and the order total. Staff can manage orders from confirmation through delivery, add and edit product listings, and use the inventory dashboard to spot low-stock and out-of-stock items.",
     stack: ["React", "Python", "FastAPI", "MySQL"],
     screenshots: [
