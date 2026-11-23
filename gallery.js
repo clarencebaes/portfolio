@@ -77,7 +77,7 @@ const projects = [
   {
     title: "CLAWWORDS",
     meta: "Android game · 2026",
-    description: "I built CLAWWORDS in Godot and packaged it as an Android APK. The game turns software development review into a timed arcade challenge: players guide a claw to collect the letters that answer each question. Across ten levels, they can spend coins to reveal a letter, shuffle the board, or unlock a different claw in the shop.",
+    description: "Developed a 10-level arcade word game in Godot and packaged it as an Android APK. Each level presents a timed question about software development. Players steer a claw to pick up letter tokens and assemble the answer before time runs out. They can spend coins to reveal a letter or shuffle the available letters, or save them to unlock a different claw design. After solving a puzzle, players can review their time and answer, retry the level, or move on to the next one.",
     stack: ["Godot Engine", "Kotlin", "Android Studio", "Android SDK"],
     screenshots: [
       ["menu", "Main menu", "CLAWWORDS title screen with Shop, Start, and Settings", "The main menu opens the level selection, shop, or settings."],
@@ -100,7 +100,7 @@ const projects = [
   {
     title: "TRAPKINGS",
     meta: "Clothing e-commerce website · 2025",
-    description: "I built TRAPKINGS around two workflows: shopping for clothing and running the storefront. Shoppers can search the catalog, filter by size or color, check availability, and review shipping and order totals at checkout. Staff can manage fulfillment, add product listings, and see which items are running low in the admin dashboard.",
+    description: "Developed a full-stack clothing storefront with React, FastAPI, and MySQL. Shoppers can search the catalog, filter by size or color, and check product photos, prices, and stock before adding items to their cart. At checkout, they can adjust quantities and review shipping costs and the order total. Staff can manage orders from confirmation through delivery, add and edit product listings, and use the inventory dashboard to spot low-stock and out-of-stock items.",
     stack: ["React", "Python", "FastAPI", "MySQL"],
     screenshots: [
       ["01-storefront", 1896, 905, "Storefront", "TRAPKINGS storefront with a branded banner and product section", "The home page introduces the brand and gives shoppers a starting point for browsing."],
