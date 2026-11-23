@@ -65,7 +65,7 @@ a { color: inherit; }
 .resume-role h3, .resume-role p { margin: 0; font-size: 1rem; }
 .resume-role p { color: var(--muted); }
 .resume-bullets { margin: 0; padding-left: 1.1rem; list-style: square; }
-.resume-bullets li::marker, .resume-entries strong, .resume-entries span, .skills-list dt { color: var(--navy); }
+.resume-role h3, .resume-bullets li::marker, .resume-bullets li > span, .resume-entries strong, .skills-list dt { color: var(--navy); }
 .skills-list, .resume-entries { margin: 0; padding: 0; list-style: none; }
 .skills-list dt, .skills-list dd { display: inline; margin: 0; }
 .skills-list dt { margin-right: .4rem; font-weight: 700; }
